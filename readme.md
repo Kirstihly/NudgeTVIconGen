@@ -15,7 +15,7 @@ Django 2.2.4
 
 ### Installing
 
-####Including all applications for Django models
+* **Including all applications for Django models**
 
 Go to NudgeTVIconGen/
 
@@ -25,17 +25,15 @@ python manage.py sqlmigrate URLShortener 0001
 python manage.py migrate
 ```
 
-####Creating admin user
+* **Creating admin user**
 
 ```
 python manage.py createsuperuser
 ```
 
-####Filling in Bitly account information
+* **Filling in Bitly account information**
 
-Go to NudgeTVIconGen/refresh_db.py
-
-fill in
+Go to NudgeTVIconGen/refresh_db.py, fill in
 
 ```
 API_USER =
@@ -44,7 +42,7 @@ API_KEY =
 
 ## Running the tests
 
-####Start the development server
+* **Start the development server**
 
 Go to NudgeTVIconGen/
 
@@ -52,14 +50,10 @@ Go to NudgeTVIconGen/
 python manage.py runserver
 ```
 
-In browser, type
-
-http://localhost:8000/admin/
-
-and log in with admin account
+In browser, type http://localhost:8000/admin/ and log in with admin account
 
 
-####Refresh the database
+* **Refresh the database**
 
 Go to NudgeTVIconGen/
 
